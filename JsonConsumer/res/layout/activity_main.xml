@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:measureWithLargestChild="false"
+    android:orientation="vertical"
+    android:background="@color/CINZA"
+    tools:context="com.pontotel.app.activitys.MainActivity" >
+    
+   
+
+    <ListView
+        android:id="@+id/listFormulas"
+        android:background="@color/BRANCO"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:dividerHeight="10.0sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:divider="@color/CINZA"
+        >
+    </ListView>
+    
+
+</LinearLayout>
